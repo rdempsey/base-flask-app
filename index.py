@@ -1,13 +1,19 @@
-from flask import Flask, render_template
+"""Main application file."""
+from flask import Flask, render_template, Markup
+import markdown
+
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
-    message = 'Welcome to Your First Flask Application!'
+    """The homepage of the application."""
+    with open('README.md', 'r') as homepage_content:
+        content = homepage_content.read()
 
+    content = Markup(markdown.markdown(content))
     return render_template('index.html',
-                           message=message)
+                           content=content)
 
 if __name__ == "__main__":
     app.debug = True  # Comment this out when going into production
