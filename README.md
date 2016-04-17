@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project is an application skeleton for a typical Flask web app. You can use it to quickly bootstrap your Flask web app projects and dev environment.
+This project is application skeleton for typical Flask and AngularJS web apps. You can use it to quickly bootstrap your Flask and Angular web app projects and dev environment.
 
 The project contains two things:
 
-1. A sample Flask application configured to serve dymanic pages as well as provide an example API
+1. A sample Flask application configured to serve dynamic pages as well as provide an example API
 2. A sample AngularJS application based off [angular-seed](https://github.com/angular/angular-seed) used to interact with the API created using Flask
 
 ## What's In The Box - Flask
@@ -77,7 +77,7 @@ Run the Flask app:
 
 Navigate to the home page: [http://localhost:5000](http://localhost:5000)
 
-## Run the AngularJS App
+### Run the AngularJS App
 
 If you would like run the included AngularJS application, perform the steps in the previous section to start the Flask app and then do the following:
 
