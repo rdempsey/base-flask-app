@@ -1,5 +1,7 @@
 flask>=0.10.1
 flask-restful>=0.3.5
 markdown>=2.6.6
-scutils>=1.1.0
 pytest>=2.8.5
+scutils>=1.1.0
+sqlalchemy>=1.0.12
+sqlite>=3.9.2
