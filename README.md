@@ -19,4 +19,4 @@ Now clone this repo, get to customizing and enjoy!
 Minimum Requirements:
 
 * Python 2.7+
-* flask 0.10.1
+* Flask 0.10.1
